@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.header{
+    background-color: greenyellow;
+    color: salmon;
+    height: 80px;
+    width: 85vw;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    text-transform: uppercase;
+}
+
+.logo a{
+    color: rgb(47, 0, 255);
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: rgb(201, 0, 252);
+    color: rgb(255, 6, 6);
+    width: 85vw;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar ul li{
+    display: inline-block;
+    background-color: black;
+}
+
+.navbar ul li a{
+text-decoration: none;
+display: block;
+padding: 25px;
+color: white;
+}
+
+.navbar ul li a:hover{
+    color: blue;
+}
+
+#maincontent{
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portada{
+    width: 78%;
+    background: rgb(255, 241, 118);
+    padding: 1.6em;
+    box-sizing: border-box;
+}
+
+.destacado, .default{
+    background: white;
+    padding: 0.7em
+}
+
+.destacado{
+    margin-bottom: 0.6em;
+}
+
+.default{
+    box-sizing: border-box;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.imgNota img{
+    width: 100%;
+}
+
+/* Estilos de la Página de contacto */
+
+#Formcontacto{
+    padding: 1em;
+    background: palegreen;
+    border-radius: 15px;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+#Formcontacto input, #Formcontacto select, #Formcontacto textarea{
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Formcontacto input[type="sumbit"]:hover{
+    background-color: blue;
+    color: white;
+}
+
+#Formcontacto input[type="sumbit"]{
+    width: 50%;
+}
+
+#Formcontacto input:focus{
+    background:paleturquoise;
+}
+
+#Formcontacto input:invalid{
+    border: red;
+}
+
+#Formcontacto input:invalid{
+    border:green
+}
+
+footer{
+    clear: both;
+    background-color: violet;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #name{
+    background-color: rgb(rgb(54, 192, 66), green, blue);
+}
+
+header{
+    background-color: rgb(rgb(255, 96, 202)
+} */

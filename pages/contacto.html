@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <header class="header" id="name">
+        <div class="logo">
+            <a href="../index.html" class="linklogo">
+                <h1>
+                    UTN
+                </h1>
+            </a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+<ul class="menu principal">
+        <li>
+            <a href="../index.html">home</a>
+        </li>
+        <li>
+            <a href="./noticias.html">noticias</a>
+        </li>
+        <li>
+            <a href="./masnoticias.html">mas noticias</a>
+        </li>
+        <li>
+            <a href="./contacto.html">contacto</a>
+        </li>
+</ul>
+    </nav>
+
+    <main id="maincontent">
+
+        <section id="portada">
+           
+            <h2>Contacto con la empresa</h2>
+            
+           <form method="post" id="Formcontacto">
+<div>
+    <label>Nombre: </label>
+    <input type="text" name="nombre" placeholder="Introduzca por favor su nombre" required>
+</div>
+<div>
+    <label>Email: </label>
+    <input type="email" name="email" placeholder="Ingrese su email" required>
+</div>
+<div>
+    <label>Telefono: </label>
+    <input type="tel" name="telefono" required>
+</div>
+<div>
+    <label>Provincia: </label>
+    <select name="Provincia">
+        <option disabled>Esta opcion no se selecciona</option>
+        <option>Seleccione su provincia></option>
+        <option value="CABA">CABA</option>
+        <option value="santafe">Santa Fe</option>
+        <option value="cba">Cordoba</option>
+        <option value="mdza">Mendoza</option>
+    </select>
+</div>
+<div>
+<label>Comentarios: </label>
+<textarea name="comentario" cols="30" rows="10" required></textarea>
+</div>
+<div>
+    <label>Password: </label>
+    <input type="password">
+</div>
+<div>
+    <label>
+        <input type="checkbox">
+        Quiero recibir informacion y llenarme de spam
+    </label>
+</div>
+<div>
+    <input type="submit" value="Escribenos!!" class="btn.envio">
+</div>
+
+            </form>
+        
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2022 :::::: Derechos Reservados
+        </p>
+    <p>Desarrollado por <a href="Misitio.com" target="_Blank">Nahuel</a></p>
+    <p>Enviame un <a href="mailto:aimonenahuel@gmail.com">Mail</a></p>
+    </footer>
+
+</body>
+</html>
